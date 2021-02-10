@@ -1,5 +1,0 @@
-#ifndef LAB_1_BINARY_FILES_H
-#define LAB_1_BINARY_FILES_H
-
-
-#endif //LAB_1_BINARY_FILES_H

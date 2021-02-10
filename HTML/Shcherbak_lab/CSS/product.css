@@ -1,0 +1,51 @@
+.bigTitle{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.container{
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productContainer .product{
+    flex: 0 0 25%;
+    margin:auto;
+    height: 250px;
+    border: 1px solid black;
+    background: #81fc78;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.product a{
+    max-width:75%;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+.product p{
+    max-width:75%;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+.product img{
+    max-width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+
+}

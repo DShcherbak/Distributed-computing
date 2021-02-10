@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Зворотній зв'язок</title>
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/mainPage.css">
+    <!--
+        <link rel="stylesheet" type="text/css" href="styles/feedback.css">-->
+    <script type="text/javascript" src="JS/sliderScripts.js"></script>
+    <script type="text/javascript" src="JS/feedbackWindow.js"></script>
+
+</head>
+<body onload="slider();">
+<div class = "MainBodyWrapper">
+    <header>
+        <div class="HeaderContent">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html"><img class="logo" src="src/general/logo.jpg" alt="Logo"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="index.html"><div class="Title">SadOffnick Store</div></a>
+                    </td>
+                </tr>
+            </table>
+
+
+            <div class="feedback">
+                <p class = "CallUs">Зателефонуйте нам!</p>
+                <p class="phone">(+38)050-050-05-50</p>
+                <p class="phone">(+38)066-066-06-60</p>
+                <p class="link" onclick="giveFeedback(true);">Залиште свій коментар!</p>
+            </div>
+        </div>
+
+        <div class = "backdrop" id = "backdrop">
+            <div id="FeedbackWindow" class="hiddenFeedBackWindow" hidden>
+                <input type = "button" id="closeButton" class = "closeButton" onclick="giveFeedback(false);" value="X">
+                <p class="feedbackTitle">Виникли якісь питання з приводу садівництва?<br> Зверніться до нас!</p>
+
+                <form onsubmit="return submitFeedback();" style = "display: flex; flex-direction: column;">
+                    <label for="name">Ім'я та прізвище*</label><br>
+                    <input type="text" id="name"><br>
+                    <label for="number">Телефон*</label><br>
+                    <input type="tel" id="number"><br>
+                    <label for="email">Електронна пошта*</label><br>
+                    <input type="email" id="email"><br>
+                    <label for="message">Повідомлення:</label><br>
+                    <textarea id="message" style = "height: 200px; max-width:100%; min-width:100%; border: 0; margin: 0; padding:0;"></textarea><br>
+                    <input type="submit" id="sendFeedback" value="Надіслати!">
+                </form>
+            </div>
+        </div>
+
+        <div class="HeaderMenu">
+            <ul class="navbar">
+                <li><a href="index.html">Головна</a></li>
+                <li>|</li>
+
+                <li><a href="catalog/catalog.html">Каталог товарів</a></li>
+                <li>|</li>
+                <li><a href="delivery.html">Доставка і оплата</a></li>
+                <li>|</li>
+                <li><a href="priceList.html">Прайс-ліст</a></li>
+                <li>|</li>
+                <li><a href="callback.html">Зворотній зв'язок</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <div class = "SliderBlock">
+        <div class="SliderContainer">
+
+            <img class="Arrow" onclick="swipe(0); return false;"
+                 src="src/general/LeftArrow.png" alt="Left arrow">
+
+            <div class = "Slider" onload="slider();" id="Slider">
+                <img class="hiddenImage" src="src/general/slider-0.jpg" alt="Slider image 1">
+                <img class="hiddenImage" src="src/general/slider-1.jpg" alt="Slider image 2">
+                <img class="hiddenImage" src="src/general/slider-2.jpg" alt="Slider image 3">
+                <img class="hiddenImage" src="src/general/slider-3.jpg" alt="Slider image 4">
+            </div>
+
+            <img class="Arrow" onclick="swipe(1); return false;"
+                 src="src/general/RightArrow.png" alt="Right arrow">
+
+        </div>
+    </div>
+
+
+    <div style="width:1000px; margin:auto;">
+        <p style="float:left;"> <a href="index.html">Головна</a> \ <a href="callback.html">Зворотній зв'язок</a>
+    </div>
+
+
+    <div class="mainBody">
+        <div class = "container">
+            <div class = "SidebarMenu">
+                <p class = "SidebarMenuTitle">Наші товари</p>
+                <ul style = "list-style-type: circle; margin-left: 30px;">
+                    <li>
+                        <a href = "catalog/Trees.html">Дерева</a>
+                    </li>
+                    <li>
+                        <a href = "catalog/Flowers.html">Квіти</a>
+                    </li>
+                    <li>
+                        <a href = "catalog/Fruits.html">Овочі та ягоди</a>
+                    </li>
+                </ul>
+                <div class = "PriceList" style = "margin-top: 50px;">
+                    <a href = "priceList.html"><img src = "src/general/ms-excel.png" alt = "Price list"></a>
+                    <br>
+                    <a href = "priceList.html" style = "color: Black; font-size: 30px">Прайс-лист</a>
+                </div>
+            </div>
+            <div style = "width:75%;">
+                <p class = "bigTitle">Чому варто обрати саме наш магазин?</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis a orci eu facilisis.
+                    Cras aliquet feugiat congue. Sed condimentum finibus dui, vel elementum arcu aliquam vel.
+                    Morbi est nisl, facilisis sit amet diam quis, venenatis pretium massa.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis a orci eu facilisis. Cras aliquet feugiat congue. Sed condimentum finibus dui, vel elementum arcu aliquam vel.
+                </p>
+                <p>
+                    Morbi est nisl, facilisis sit amet diam quis, venenatis pretium massa. Integer quis ultricies lectus, et convallis diam. Curabitur consectetur sodales lorem quis egestas.
+                    Nulla vitae rutrum nulla, nec imperdiet diam. Etiam semper metus nisl, sit amet pellentesque leo tempor et. Nullam pellentesque leo et justo varius, ac cursus erat euismod.
+                </p>
+                <p class = "bigTitle">Як мені зробити замовлення?</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis a orci eu facilisis. Cras aliquet feugiat congue. Sed condimentum finibus dui, vel elementum arcu aliquam vel.
+                    Morbi est nisl, facilisis sit amet diam quis, venenatis pretium massa. Integer quis ultricies lectus, et convallis diam. Curabitur consectetur sodales lorem quis egestas.
+                    Nulla vitae rutrum nulla, nec imperdiet diam. Etiam semper metus nisl, sit amet pellentesque leo tempor et. Nullam pellentesque leo et justo varius, ac cursus erat euismod.
+                </p>
+
+            </div>
+        </div>
+
+        <div class ="CompanyInfo">
+            <p>Наша компанія займається поставкою матеріалів для благоустрою саду та городу, саджанці фруктових дерев, квітів і т.і. Наша компанія займається поставкою матеріалів для благоустрою саду та городу, саджанці фруктових дерев, квітів і т.і. Наша компанія займається поставкою матеріалів для благоустрою саду та городу, саджанці фруктових дерев, квітів і т.і.</p>
+            <div class = "columnSeparator"></div>
+            <p>Наша компанія займається поставкою матеріалів для благоустрою саду та городу, саджанці фруктових дерев, квітів і т.і. Наша компанія займається поставкою матеріалів для благоустрою саду та городу, саджанці фруктових дерев, квітів і т.і. Наша компанія займається поставкою матеріалів.</p>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="FooterContent">
+        <div class="companyInfo">
+            <p>© 1999 - 2020 <br>"SadOffnick Store"</p>
+            <p>sadoffnick@gmail.com</p>
+        </div>
+
+        <ul class="footerMenu">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="catalog/catalog.html">Каталог товарів</a></li>
+            <li><a href="delivery.html">Доставка і оплата</a></li>
+            <li><a href="priceList.html">Прайс-ліст</a></li>
+            <li><a href="callback.html">Зворотній зв'язок</a></li>
+        </ul>
+
+        <p class = "Author">Розробкою сайту займалося акціонерне товариство "SHI" (C)</p>
+    </div>
+
+</footer>
+</body>
+
+
+</html>

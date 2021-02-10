@@ -1,0 +1,91 @@
+
+/* MAIN BODY */
+
+.mainBody{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bigTitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.GreatTitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+.GreatTitleText{
+    font-size: 40px;
+}
+
+.BigPictureHandler{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bigColumn{
+    width:75%;
+    float:left;
+    word-wrap: break-word;
+}
+.smallColumn{
+    word-wrap: break-word;
+    width:25%;
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+.footerContainer{
+    width: 90%;
+    margin: 0 auto; /* Center the DIV horizontally */
+    display: flex;
+}
+
+.foolerListContainer{
+    width:30%;
+    float:left;
+}
+
+.footerList{
+    list-style: none;
+}
+
+.footerList li {
+    padding: 2px;
+}
+.footerInfo{
+    width:70%;
+    text-align: center;
+}
+
+.footerTitle{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.microText{
+    font-size:75%;
+}
+
+
+
+

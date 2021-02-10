@@ -1,0 +1,22 @@
+.mainBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+
+.priceList table {
+    border: 2px solid black;
+}
+
+.priceList table{
+    border-collapse: collapse;
+}
+
+.priceList table, .priceList th, .priceList td {
+    border: 2px solid black;
+    font-size: 15px;
+}
