@@ -1,12 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
 
-    static int leftPriority = 1;
-    static int rightPriority = 1;
     static JLabel leftLabel;
     static JLabel rightLabel;
 
@@ -16,7 +13,7 @@ public class Main {
     static CancellationToken incToken;
     static CancellationToken decToken;
 
-    static int pseudoSemaphore = 0;
+    static AtomicInteger pseudoSemaphore = new AtomicInteger(0);
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();//creating instance of JFrame
@@ -39,39 +36,42 @@ public class Main {
         buttons[3].setBounds(400,250,100, 40);
 
         buttons[0].addActionListener(ae -> { // possible new thread
+            if(pseudoSemaphore.get() == 0){
+                pseudoSemaphore.set(1);
+                leftLabel.setText("Зайнято...");
+                buttons[2].setEnabled(false);
+                buttons[3].setEnabled(false);
+                incThread = initialiseThreads(slider, true);
+                incThread.start();
+            }
 
-            leftPriority = 9;
-            leftLabel.setText("Зайнято...");
-            buttons[2].setEnabled(false);
-            buttons[3].setEnabled(false);
-            incThread = initialiseThreads(slider, true);
-            incThread.start();
 
         });
         buttons[1].addActionListener(ae -> {
-            if (leftPriority > 0) {
+            if(pseudoSemaphore.get() == 1) {
+                pseudoSemaphore.set(0);
                 leftLabel.setText("Вільна каса!");
                 buttons[2].setEnabled(true);
                 buttons[3].setEnabled(true);
-                leftPriority = 0;
                 incToken.cancel();
             }
         });
         buttons[2].addActionListener(ae -> {
-            rightPriority = 9;
-            leftLabel.setText("Зайнято...");
-            buttons[0].setEnabled(false);
-            buttons[1].setEnabled(false);
-            decThread = initialiseThreads(slider, false);
-            decThread.start();
+            if(pseudoSemaphore.get() == 0) {
+                pseudoSemaphore.set(-1);
+                leftLabel.setText("Зайнято...");
+                buttons[0].setEnabled(false);
+                buttons[1].setEnabled(false);
+                decThread = initialiseThreads(slider, false);
+                decThread.start();
+            }
         });
         buttons[3].addActionListener(ae -> {
-            if (rightPriority > 0) {
-                rightPriority = 0;
+            if(pseudoSemaphore.get() == -1) {
+                pseudoSemaphore.set(0);
                 leftLabel.setText("Вільна каса!");
                 buttons[0].setEnabled(true);
                 buttons[1].setEnabled(true);
-
                 decToken.cancel();
             }
         });
@@ -90,9 +90,9 @@ public class Main {
     }
 
     private static void createLabels(JFrame frame) {
-        leftLabel = new JLabel("Вільна каса");
+        leftLabel = new JLabel("Вільна каса!");
 
-        leftLabel.setBounds(250, 50, 100, 50);
+        leftLabel.setBounds(240, 50, 120, 50);
         leftLabel.setBackground(Color.GREEN);
 
         leftLabel.setVerticalAlignment(JLabel.CENTER);
@@ -111,7 +111,7 @@ public class Main {
 
     private static Thread initialiseThreads(JSlider slider, boolean increment) {
         CancellationToken ct = new CancellationToken();
-        incThread = new Thread(new NoLockCounterThread(slider, increment, ct));
+        incThread = new Thread(new CounterThread(slider, increment, ct));
         incThread.setPriority(1);
         incThread.setDaemon(true);
         if(increment)

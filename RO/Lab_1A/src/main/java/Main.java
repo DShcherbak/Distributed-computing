@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Main {
 
@@ -103,8 +101,8 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     private static void initialiseThreads(JSlider slider) {
-        incThread = new Thread(new NoLockCounterThread(slider, true, 10000));
-        decThread = new Thread(new NoLockCounterThread(slider, false, 10000));
+        incThread = new Thread(new Counterthread(slider, true, 10000));
+        decThread = new Thread(new Counterthread(slider, false, 10000));
         incThread.setPriority(1);
         decThread.setPriority(1);
         incThread.setDaemon(true);

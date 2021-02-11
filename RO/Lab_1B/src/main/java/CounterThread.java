@@ -1,13 +1,13 @@
 import javax.swing.*;
 
-public class NoLockCounterThread implements Runnable {
+public class CounterThread implements Runnable {
     final JSlider slider;
     boolean isIncrement;
     CancellationToken ct;
 
     int step = 5;
 
-    public NoLockCounterThread(JSlider slider, boolean increment, CancellationToken ct) {
+    public CounterThread(JSlider slider, boolean increment, CancellationToken ct) {
         this.slider = slider;
         this.isIncrement = increment;
         this.ct = ct;
