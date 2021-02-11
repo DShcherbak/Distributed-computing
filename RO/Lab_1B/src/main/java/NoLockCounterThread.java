@@ -16,23 +16,18 @@ public class NoLockCounterThread implements Runnable {
     public void run() {
         while (ct.IsAlive()) {
             if (isIncrement){
-                synchronized (slider){
-                    int value = slider.getValue();
-                    if(value < 90)
-                        slider.setValue(value + step);
-                }
+                int value = slider.getValue();
+                if(value < 90)
+                    slider.setValue(value + step);
             }
             else {
-                synchronized (slider){
-                    int value = slider.getValue();
-                    if(value > 10)
-                        slider.setValue(value - step);
-                }
+                int value = slider.getValue();
+                if(value > 10)
+                    slider.setValue(value - step);
             }
             System.out.println("Slider value is " + slider.getValue());
             try {
-                int priority = Thread.currentThread().getPriority();
-                Thread.sleep(50);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

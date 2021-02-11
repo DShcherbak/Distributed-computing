@@ -16,6 +16,8 @@ public class Main {
     static CancellationToken incToken;
     static CancellationToken decToken;
 
+    static int pseudoSemaphore = 0;
+
     public static void main(String[] args) {
         JFrame frame = new JFrame();//creating instance of JFrame
 
@@ -37,37 +39,39 @@ public class Main {
         buttons[3].setBounds(400,250,100, 40);
 
         buttons[0].addActionListener(ae -> { // possible new thread
+
             leftPriority = 9;
+            leftLabel.setText("Зайнято...");
             buttons[2].setEnabled(false);
             buttons[3].setEnabled(false);
-            leftLabel.setText(String.valueOf(leftPriority));
             incThread = initialiseThreads(slider, true);
-            incThread.run();
+            incThread.start();
 
         });
         buttons[1].addActionListener(ae -> {
             if (leftPriority > 0) {
+                leftLabel.setText("Вільна каса!");
                 buttons[2].setEnabled(true);
                 buttons[3].setEnabled(true);
                 leftPriority = 0;
-                leftLabel.setText(String.valueOf(leftPriority));
                 incToken.cancel();
             }
         });
         buttons[2].addActionListener(ae -> {
             rightPriority = 9;
+            leftLabel.setText("Зайнято...");
             buttons[0].setEnabled(false);
             buttons[1].setEnabled(false);
-            rightLabel.setText(String.valueOf(rightPriority));
             decThread = initialiseThreads(slider, false);
-            decThread.run();
+            decThread.start();
         });
         buttons[3].addActionListener(ae -> {
             if (rightPriority > 0) {
                 rightPriority = 0;
+                leftLabel.setText("Вільна каса!");
                 buttons[0].setEnabled(true);
                 buttons[1].setEnabled(true);
-                rightLabel.setText(String.valueOf(rightPriority));
+
                 decToken.cancel();
             }
         });
@@ -86,22 +90,15 @@ public class Main {
     }
 
     private static void createLabels(JFrame frame) {
-        leftLabel = new JLabel(String.valueOf(leftPriority));
-        rightLabel = new JLabel(String.valueOf(rightPriority));
+        leftLabel = new JLabel("Вільна каса");
 
-        leftLabel.setBounds(100, 300, 100, 50);
-        rightLabel.setBounds(400, 300, 100, 50);
+        leftLabel.setBounds(250, 50, 100, 50);
         leftLabel.setBackground(Color.GREEN);
-        rightLabel.setBackground(Color.GREEN);
 
         leftLabel.setVerticalAlignment(JLabel.CENTER);
         leftLabel.setHorizontalAlignment(JLabel.CENTER);
 
-        rightLabel.setVerticalAlignment(JLabel.CENTER);
-        rightLabel.setHorizontalAlignment(JLabel.CENTER);
-
         frame.add(leftLabel);
-        frame.add(rightLabel);
     }
 
     private static void initialiseFrame(JFrame frame){
