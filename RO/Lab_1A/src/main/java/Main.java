@@ -100,6 +100,7 @@ public class Main {
         frame.setVisible(true);//making the frame visible
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+
     private static void initialiseThreads(JSlider slider) {
         incThread = new Thread(new Counterthread(slider, true, 10000));
         decThread = new Thread(new Counterthread(slider, false, 10000));

@@ -36,44 +36,33 @@ public class Main {
         buttons[3].setBounds(400,250,100, 40);
 
         buttons[0].addActionListener(ae -> { // possible new thread
-            if(pseudoSemaphore.get() == 0){
-                pseudoSemaphore.set(1);
-                leftLabel.setText("Зайнято...");
-                buttons[2].setEnabled(false);
-                buttons[3].setEnabled(false);
-                incThread = initialiseThreads(slider, true);
-                incThread.start();
-            }
-
-
+            leftLabel.setText("Зайнято...");
+            buttons[2].setEnabled(false);
+            buttons[3].setEnabled(false);
+            incThread = initialiseThreads(slider, true);
+            incThread.start();
         });
+
         buttons[1].addActionListener(ae -> {
-            if(pseudoSemaphore.get() == 1) {
-                pseudoSemaphore.set(0);
-                leftLabel.setText("Вільна каса!");
-                buttons[2].setEnabled(true);
-                buttons[3].setEnabled(true);
-                incToken.cancel();
-            }
+            leftLabel.setText("Вільна каса!");
+            buttons[2].setEnabled(true);
+            buttons[3].setEnabled(true);
+            incToken.cancel();
         });
+
         buttons[2].addActionListener(ae -> {
-            if(pseudoSemaphore.get() == 0) {
-                pseudoSemaphore.set(-1);
-                leftLabel.setText("Зайнято...");
-                buttons[0].setEnabled(false);
-                buttons[1].setEnabled(false);
-                decThread = initialiseThreads(slider, false);
-                decThread.start();
-            }
+            leftLabel.setText("Зайнято...");
+            buttons[0].setEnabled(false);
+            buttons[1].setEnabled(false);
+            decThread = initialiseThreads(slider, false);
+            decThread.start();
         });
+
         buttons[3].addActionListener(ae -> {
-            if(pseudoSemaphore.get() == -1) {
-                pseudoSemaphore.set(0);
-                leftLabel.setText("Вільна каса!");
-                buttons[0].setEnabled(true);
-                buttons[1].setEnabled(true);
-                decToken.cancel();
-            }
+            leftLabel.setText("Вільна каса!");
+            buttons[0].setEnabled(true);
+            buttons[1].setEnabled(true);
+            decToken.cancel();
         });
 
         for (var button : buttons){
