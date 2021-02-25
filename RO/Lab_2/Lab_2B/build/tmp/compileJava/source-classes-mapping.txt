@@ -1,0 +1,9 @@
+com/stolenObject.java
+ com.stolenObject
+ com.stolenObject$State
+com/Main.java
+ com.Main
+ com.Main$Car
+ com.Main$Ivan
+ com.Main$Nechyporiuk
+ com.Main$Petrov

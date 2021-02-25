@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb8ecbb5-9852-42e6-b81e-04a570c4205c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Algorithms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/BD_15/doctor.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/BD_15/hospital.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/BD_15/hospital.ind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/additional.fl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.fl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.ind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/role.fl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CHM/Lab_2/Gaus.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CHM/Lab_2/Gaus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CHM/Lab_2/SQRT.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CHM/Lab_2/SQRT.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1776030115-docos_binary_i18n__uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1VmdPHOOdfbWGPMR3GzrRugrcqy9p_CEsw179-h170-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1VmdPHOOdfbWGPMR3GzrRugrcqy9p_CEsw287-h179-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1WTz6ky_icVHcrRuFntVhVejHzHHdT28tw179-h170-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1WTz6ky_icVHcrRuFntVhVejHzHHdT28tw218-h207-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1hmwSnatq_VKxuTxxJBh9Qg0Hv88nxn8gw179-h170-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1hsMAOiu2q27MR52nmbv8uae_tVK76_vow179-h170-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1hsMAOiu2q27MR52nmbv8uae_tVK76_vow218-h207-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1lpw_Npweu_bNwQiaLe5tdQbZdmKwnaUnw179-h170-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1lpw_Npweu_bNwQiaLe5tdQbZdmKwnaUnw218-h207-p-k-nu-iv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1srGP1CcJilfImx3fvPZaOYQ8rbEN01waw179-h170-p-k-nu-iv3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/1srGP1CcJilfImx3fvPZaOYQ8rbEN01waw218-h207-p-k-nu-iv3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/VxhwdvahXT_hvUPHWJxcyDxHRc7jti9md4AZXxlArMI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/app_data/cbgapi.loaded_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/app_data/m_b_tp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/cbgapi.loaded_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/cbgapi.loaded_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/cbgapi.loaded_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/cbgapi.loaded_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/chat_load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/cleardot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/client_002.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/client_data/3059645546-lcs_client_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/client_data_002/1225262330-lcs_receiver_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/drive_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/mbcore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/pdf_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/postmessageRelay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/postmessageRelay_data/3607165356-postmessagerelay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/postmessageRelay_data/cbgapi.loaded_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/postmessageRelay_data/rpcshindig_random.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/proxy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/proxy_data/cbgapi.loaded_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/proxy_data/googleapis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/rsAA2YrTtnB4JkZoIfQ8zrLebVFVLDGyv5Mg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/rsAA2YrTuonoMZCzJ6jWwbcMjnjWHNHAWuRQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/rsAFB8gszi2qigU6_Sv3fObfJJOt7u_LYqsw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/session_load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/vnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/vnd_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/vnd_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Semester2 – Google Диск_files/vnd_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/drive" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GENERAL ALGEBRA/Лидл,Нидеррайтер,_Конечные_поля,т1,т2,1988.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Lesson_3/forms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Lesson_3/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Lesson_4/helicopter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Module1/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Module1/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Module1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak/HTML/Main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak/HTML/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak/HTML/picture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak/HTML/picture2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak/HTML/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/catalog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/mainPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/priceList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/JS/feedbackWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/JS/sliderScripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/catalog/Flowers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/catalog/Fruits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/catalog/Trees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/catalog/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/delivery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/priceList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/src/catalog/flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/src/catalog/fruits.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML/Shcherbak_lab/src/catalog/trees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MS/Lab_1/Lab_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/Exam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/.qmake.stash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/Exam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/customrandom.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/log.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/mainwindow.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/moc_mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/moc_mainwindow.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/moc_predefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/moc_userinfo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/moc_userinfo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/problem.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/system.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/ui_mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/ui_userinfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/user.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam/build-Exam-Desktop_Qt_5_12_6_GCC_64bit-Debug/userinfo.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/binary_files.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/binary_files.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/io_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/IO/io_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/io_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/IO/io_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/movie_database.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/movie_database.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/operations.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/operations.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oJK3Pf0BvyoFgHHhiuFIzeasUa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb8ecbb5-9852-42e6-b81e-04a570c4205c" name="Default Changelist" comment="" />
+      <created>1612999053793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612999053793</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612999511117">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1612999511117" />
+    <state x="728" y="358" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612999496853">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="728" y="358" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1612999496853" />
+    <state x="305" y="144" width="1372" height="825" key="new project wizard" timestamp="1612999386733">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="305" y="144" width="1372" height="825" key="new project wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1612999386733" />
+  </component>
+</project>
