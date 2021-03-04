@@ -1,8 +1,8 @@
-Barber.java
- Barber
-BinarySemaphore.java
- BinarySemaphore
-Main.java
- Main
- Main$Barber
- Main$Customer
+com/main/Main.java
+ com.main.Main
+ com.main.Main$Barber
+ com.main.Main$Customer
+com/main/BinarySemaphore.java
+ com.main.BinarySemaphore
+com/main/Barber.java
+ com.main.Barber

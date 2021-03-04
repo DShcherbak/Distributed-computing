@@ -1,3 +1,5 @@
+package com.main;
+
 public class BinarySemaphore {
     volatile boolean taken = false;
     public synchronized void acquire() throws InterruptedException {

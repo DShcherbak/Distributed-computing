@@ -1,4 +1,4 @@
-import java.util.concurrent.Semaphore;
+package com.main;
 
 public class Main {
     static BinarySemaphore customerSemaphore = new BinarySemaphore();
@@ -39,7 +39,7 @@ public class Main {
                 try {
                     barberSemaphore.acquire();
                     Thread.sleep(50);
-                    System.out.println("Barber is working...");
+                    System.out.println("com.main.Barber is working...");
                     Thread.sleep(200);
                     barberSemaphore.release();
                     Thread.sleep(50);

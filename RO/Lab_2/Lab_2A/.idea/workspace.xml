@@ -23,18 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a96ed4-1fa0-4587-a435-5fb1938b7fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/Lab_1.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/visualelements.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BD/BD_15/doctor.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/BD_15/doctor.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BD/BD_15/hospital.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/BD_15/hospital.dat" afterDir="false" />
@@ -54,6 +42,17 @@
       <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.fl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.ind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.ind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/role.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/role.fl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/Lab_1.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/Lab_1.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/visualelements.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/visualelements.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../exam/Exam" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,10 +127,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="454" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1613600333889" />
-    <state x="779" y="324" width="424" height="491" key="FileChooserDialogImpl" timestamp="1613600260149">
+    <state x="779" y="324" width="424" height="491" key="FileChooserDialogImpl" timestamp="1614249089864">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="324" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1613600260149" />
+    <state x="779" y="324" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1614249089864" />
     <state width="1802" height="340" key="GridCell.Tab.0.bottom" timestamp="1613609521153">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

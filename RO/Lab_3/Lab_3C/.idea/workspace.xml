@@ -20,66 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb10d78-c90e-49b4-9926-d90ef5a60f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/Lab_1.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/paintevent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/paintevent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/polygon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/polygon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/visualelements.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../KompGraph/Lab_1/Lab_1/widget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2B/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2B_Java/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2C/src/main/java/main/AbstractLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2C/src/main/java/main/DeckerLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2C/src/main/java/main/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2C/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_2C/src/main/java/main/MatchNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3A/src/main/java/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3A/src/main/java/Bee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3A/src/main/java/Honeypot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3A/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3B/src/main/java/Barber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3B/src/main/java/BinarySemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3B/src/main/java/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_3B/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_@/src/main/java/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_@/src/main/java/com/stolenObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/BD_15/doctor.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/BD_15/doctor.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/BD_15/hospital.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/BD_15/hospital.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/BD_15/hospital.ind" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/BD_15/hospital.ind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/movie_database.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/DB_Core/operations.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/IO/io_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/IO/io_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/binary_files.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/file_writing/index_table.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/src/additional.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/additional.fl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.fl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.ind" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/mov.ind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/Lab_1/src/role.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/Lab_1/src/role.fl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1A/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1A/build/classes/java/main/NoLockCounterThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exam/Exam" beforeDir="false" afterPath="$PROJECT_DIR$/../../exam/Exam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/BD_15/doctor.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/BD_15/doctor.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/BD_15/hospital.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/BD_15/hospital.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/BD_15/hospital.ind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/BD_15/hospital.ind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/movie_database.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/movie_database.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/movie_database.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/movie_database.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/operations.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/operations.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/operations.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/DB_Core/operations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/IO/io_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/IO/io_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/binary_files.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/binary_files.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/binary_files.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/binary_files.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/index_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/index_table.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/index_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/file_writing/index_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/additional.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/additional.fl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.fl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.ind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/mov.ind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BD/Lab_1/src/role.fl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BD/Lab_1/src/role.fl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/Lab_1.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/Lab_1.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/VisualElements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/paintevent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/polygon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/visualelements.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/visualelements.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../KompGraph/Lab_1/Lab_1/widget.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/Exam" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +66,10 @@
   </component>
   <component name="GOROOT" path="/usr/lib/go-1.14" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1ox0FgbZWEYxiOi5dvWcMu534sr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -108,7 +82,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -139,23 +119,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1802" height="823" key="GridCell.Tab.0.bottom" timestamp="1614214370508">
+    <state x="774" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1614807410930">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="823" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1614214370508" />
-    <state width="1802" height="823" key="GridCell.Tab.0.center" timestamp="1614214370505">
+    <state x="774" y="300" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1614807410930" />
+    <state width="1802" height="823" key="GridCell.Tab.0.bottom" timestamp="1614251274079">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="823" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1614214370505" />
-    <state width="1802" height="823" key="GridCell.Tab.0.left" timestamp="1614214370504">
+    <state width="1802" height="823" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1614251274079" />
+    <state width="1802" height="823" key="GridCell.Tab.0.center" timestamp="1614251274079">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="823" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1614214370504" />
-    <state width="1802" height="823" key="GridCell.Tab.0.right" timestamp="1614214370507">
+    <state width="1802" height="823" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1614251274079" />
+    <state width="1802" height="823" key="GridCell.Tab.0.left" timestamp="1614251274079">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="823" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1614214370507" />
+    <state width="1802" height="823" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1614251274079" />
+    <state width="1802" height="823" key="GridCell.Tab.0.right" timestamp="1614251274079">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="823" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1614251274079" />
   </component>
 </project>
